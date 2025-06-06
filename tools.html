@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tools - SpinLogic</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Orbitron', sans-serif;
+      overflow-x: hidden;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin-bottom: 40px;
+      line-height: 1.5;
+    }
+
+    .tools-container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 900px;
+      width: 100%;
+      gap: 30px;
+      padding: 0 20px;
+    }
+
+    .tool {
+      background-color: #111;
+      border: 2px solid #0ff;
+      border-radius: 8px;
+      flex: 1;
+      padding: 30px 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+      color: #0ff;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.2rem;
+      user-select: none;
+    }
+
+    .tool:hover {
+      background-color: #0ff;
+      color: #000;
+      border-color: #00aaff;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Our Tools</h1>
+  <p>Explore our suite of tools designed to help you sharpen your skills, analyze gameplay, learn theory, and optimize your strategies.</p>
+
+  <div class="tools-container">
+    <a href="tool1.html" class="tool">Game Analyzer</a>
+    <a href="tool2.html" class="tool">Excersises</a>
+    <a href="tool3.html" class="tool">Theory</a>
+  </div>
+
+</body>
+</html>

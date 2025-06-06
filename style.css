@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  transition: all 0.7s ease-in-out;
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.section.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.content {
+  max-width: 800px;
+}
